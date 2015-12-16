@@ -88,6 +88,7 @@
 		<dependency>
 			<groupId>Vsw.AvroDto</groupId>
 			<artifactId>AvroDto</artifactId>
+			<version>0.1.0.411</version>
 	</dependency>
 	</dependencies>
 

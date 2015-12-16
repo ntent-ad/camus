@@ -153,7 +153,6 @@
 				<artifactId>commons-httpclient</artifactId>
 				<version>3.0.1</version>
 			</dependency>
-
 		</dependencies>
 	</dependencyManagement>
 
@@ -192,16 +191,25 @@
 			<url>https://repository.apache.org/content/groups/public</url>
 		</repository>
 		<repository>
-                    <id>cloudera-releases</id>
-                    <url>https://repository.cloudera.com/artifactory/cloudera-repos</url>
-                    <releases>
-                        <enabled>true</enabled>
-                    </releases>
-                    <snapshots>
-                      <enabled>false</enabled>
-                    </snapshots>
-                </repository>
-
+			<id>cloudera-releases</id>
+			<url>https://repository.cloudera.com/artifactory/cloudera-repos</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>ntent-shared</id>
+			<url>http://nexus.cb.ntent.com/nexus/content/repositories/ntent-shared-libraries-release/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
 	</repositories>
 
 	<build>
