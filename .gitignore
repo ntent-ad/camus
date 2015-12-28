@@ -27,3 +27,6 @@ camus-api/target/
 camus-etl-kafka/target/
 camus-example/target/
 camus-schema-registry/target/
+
+camus-example/src/main/resources/camus-template.properties.txt
+camus-example/src/main/resources/camus.properties.old
